@@ -1,0 +1,44 @@
+.player {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player img {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  filter: invert(1);
+  width: 35px;
+  cursor: pointer;
+}
+
+.player iframe{
+    border-radius: 15px;
+    
+}
+.player-info{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.error-content{
+  min-width: 90vw;
+  min-height: 90vh; 
+  background-image: url('../../assets/404.png');
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+
+.error-content p{
+  font-size: 20px;
+  font-weight: 600;
+}
+

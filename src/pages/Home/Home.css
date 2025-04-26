@@ -1,0 +1,164 @@
+.home {
+  /* background-color: #181818;; */
+  overflow-x: hidden;
+}
+
+.hero {
+  position: relative;
+}
+
+.banner-img {
+  width: 100%;
+  -weblit-mask-image: linear-gradient(to right, transparent, black 75%);
+  mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.hero-caption {
+  position: absolute;
+  width: 100%;
+  /* top: 41%;
+  right: 10%; */
+  bottom: 0%;
+  left: 6%;
+}
+.caption-img {
+  max-width: 420px;
+  width: 90%;
+}
+.hero-caption p {
+  width: 75%;
+  max-width: 540px;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.hero-btns {
+  margin-top: 8px;
+  max-width: 450px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.hero-btns .btn img {
+  width: 25px;
+}
+.hero-btns .btn {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.hero-btns .btn:hover {
+  background: #ffffffbf;
+}
+
+.hero-btns .dark-btn {
+  color: #fff;
+  background-color: #6d6d6eb3;
+  transition: background 0.3s ease;
+}
+.hero-btns .dark-btn:hover {
+  background: #6d6d6e66;
+}
+
+.hero-btns .dark-btn img {
+  filter: invert(1);
+}
+
+.more-cards {
+  padding-left: 6%;
+}
+
+.custom-controls {
+  position: absolute;
+  bottom: 35%;
+  right: 7%;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.custom-controls button {
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background-color: transparent;
+}
+
+.custom-controls button img {
+  width: 22px;
+  filter: invert(1);
+  fill: white;
+}
+
+.custom-controls .play-btn {
+  border: 1px solid grey;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-controls .play-btn:hover {
+  border: 1px solid white;
+}
+
+@media (max-width: 1100px) {
+  .hero-caption .title-cards {
+    display: none;
+  }
+  .hero-btns {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .hero-caption {
+    padding-left: 3%;
+  }
+  .caption-img {
+    margin-bottom: 10px;
+    width: 40%;
+  }
+  .hero-caption p {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .btn img {
+    width: 20px;
+  }
+  .more-cards {
+    padding-left: 3%;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-caption p {
+    display: none;
+    width: 45%;
+    margin-top: 10px;
+    font-size: 10px;
+  }
+
+  .hero-btns .btn {
+    padding: 4px 10px;
+    gap: 5px;
+    font-size: 10px;
+  }
+  .hero-btns .btn img {
+    width: 15px;
+  }
+  .custom-controls {
+    bottom: 7%;
+  }
+}

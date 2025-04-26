@@ -72,14 +72,9 @@ This project was developed using the following technologies:
    ```bash
    git clone https://github.com/Mudit-750/netflix-clone.git
    cd netflix-clone
-
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/netflix-clone.git
-   cd netflix-clone
    npm install
    npm run dev
+
 
 ## 🔐 Environment Variables
 

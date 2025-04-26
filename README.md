@@ -37,7 +37,7 @@ This project was developed using the following technologies:
 
 <p align="center">
   <a href="https://react.dev/" target="_blank">
-    <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/react_logo.svg" alt="React JS" width="60">
+    <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/react_icon.png" alt="React JS" width="60">
   </a>
   &nbsp;&nbsp;
   <a href="https://firebase.google.com/" target="_blank">

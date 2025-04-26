@@ -83,9 +83,13 @@ VITE_FIREBASE_APP_ID=your_firebase_app_id
 # TMDB API
 VITE_TMDB_API_KEY=your_tmdb_api_key
 ```
-Access it in your code using import.meta.env <br>
-const apiKey = import.meta.env.VITE_API_KEY;<br>
-console.log(apiKey);<br>
-⚠️ Vite only exposes variables that start with VITE_ <br>
+⚡ Important:
+
+<li>Environment variables must start with VITE_ to be accessible inside your React app using Vite.</li>
+<li>Access them in your code like this:</li>
+const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+console.log(apiKey);
+<li>A .env.example file is provided for reference in the repository.</li>
+
 **You can copy the structure from .env.example provided in the repo.
 

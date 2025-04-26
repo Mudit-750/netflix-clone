@@ -1,50 +1,64 @@
-# Netflix Clone
+# 🎬 Netflix Clone
 
-A Netflix clone built using **React.js** and **Firebase**. This project allows users to browse movies, view movie details, and even log in using Google authentication.
+A Netflix clone built with **React.js** and **Firebase** that allows users to browse movies, view details, and log in using Google Authentication.
 
-## Table of Contents
+## 📚 Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Setup Instructions](#setup-instructions)
+- [Environment Variables](#environment-variables)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
 
-## About the Project
+## 📖 About the Project
 
-This is a Netflix clone application where users can view movie information, including the title, poster, and background, just like the popular streaming service. The app features:
-- Movie browsing with infinite scroll.
-- User authentication via Firebase.
-- Viewing movie trailers and descriptions.
-- Styling that mimics the Netflix UI.
+This project replicates key features of the Netflix UI and functionality. Users can:
+- Browse a list of movies fetched dynamically from an external API.
+- View detailed movie information, including trailers.
+- Authenticate securely using Google via Firebase.
 
-The application uses **React.js** for the frontend and **Firebase** for authentication and data storage.
+Built with **React.js** on the frontend and **Firebase** for backend services, the application ensures a smooth and dynamic user experience with a modern, responsive design.
 
-## Features
+---
 
-- **Authentication**: Users can log in using their Google account via Firebase Authentication.
-- **Movie Listing**: Movies are fetched from The Movie Database (TMDb) API and displayed in different categories (e.g., Trending, Originals, Top Rated).
-- **Responsive Design**: Fully responsive design to work on various screen sizes.
-- **Trailer Preview**: Click on movies to watch trailers, and view detailed movie information.
-- **Infinite Scroll**: Scrollable movie list to load more content as you go.
+## 🚀 Features
 
-## Tech Stack
+- **Authentication**: Sign in with Google using Firebase Authentication.
+- **Movie Browsing**: Fetches and displays movies across different categories like Trending, Originals, and Top Rated via TMDb API.
+- **Responsive Design**: Fully responsive layout across mobile, tablet, and desktop.
+- **Trailer Previews**: Watch trailers and explore detailed descriptions of movies.
+- **Infinite Scrolling**: Load more content seamlessly as you scroll.
+
+---
+
+## 🛠 Tech Stack
 
 - **Frontend**: React.js, React Router
-- **Backend**: Firebase (Authentication, Firestore)
-- **APIs**: The Movie Database (TMDb) API
-- **Styling**: CSS, Flexbox, and custom styles
-- **Tools**: Firebase Console, React Developer Tools, VSCode
+- **Backend**: Firebase (Authentication, Firestore Database)
+- **API**: The Movie Database (TMDb) API
+- **Styling**: CSS, Flexbox, custom designs
+- **Tools**: Vite, Firebase Console, VS Code, React Developer Tools
 
-## Setup Instructions
+---
+
+## 🛠️ Setup Instructions
 
 ### Prerequisites
+- **Node.js** installed — [Download Node.js](https://nodejs.org/)
+- Firebase project setup — [Firebase Console](https://console.firebase.google.com/)
+- TMDb API key — [The Movie Database](https://www.themoviedb.org/)
 
-- Make sure you have **Node.js** installed on your machine. You can download it from [here](https://nodejs.org/).
-- You'll also need **Firebase** and **TMDb API** credentials.
+---
 
-### Getting Started
+### Installation Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Mudit-750/netflix-clone.git
+   cd netflix-clone
+
 
 1. Clone this repository:
    ```bash

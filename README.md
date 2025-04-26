@@ -9,8 +9,7 @@ A Netflix clone built with **React.js** and **Firebase** that allows users to br
 - [Setup Instructions](#setup-instructions)
 - [Environment Variables](#environment-variables)
 - [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 📖 About the Project
 

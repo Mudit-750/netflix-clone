@@ -33,6 +33,21 @@ Built with **React.js** on the frontend and **Firebase** for backend services, t
 ---
 
 ## 🛠 Tech Stack
+This project was developed using the following technologies:
+
+<p align="center">
+  <a href="https://react.dev/" target="_blank">
+    <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/react_logo.svg" alt="React JS" width="60">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://firebase.google.com/" target="_blank">
+    <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/firebase_icon.png" alt="Firebase" width="60">
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://www.themoviedb.org/" target="_blank">
+    <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/tmdb_icon.png" alt="TMDb" width="60">
+  </a>
+</p>
 
 - **Frontend**: React.js, React Router
 - **Backend**: Firebase (Authentication, Firestore Database)

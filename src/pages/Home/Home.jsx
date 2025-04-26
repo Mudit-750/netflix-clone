@@ -53,7 +53,7 @@ const Home = () => {
         
         {playVideo ? (<>
             <video src={witcher_video} ref={videoRef} className="banner-img"  
-            muted={isMuted} controls={false} playsInline  preload="metadata"/>
+            muted={isMuted} controls={false} playsInline  preload="metadata" loop/>
             <div className="custom-controls">
               <button onClick={handlePlayPause}><div className="play-btn" >
                 <img src={isPlaying ? pause:play_btn} /></div>

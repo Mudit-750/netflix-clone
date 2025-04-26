@@ -36,15 +36,15 @@ Built with **React.js** on the frontend and **Firebase** for backend services, t
 This project was developed using the following technologies:
 
 <p align="center">
-  <a href="https://react.dev/" target="_blank">
+  <a href="https://react.dev/" target="_blank" style="text-decoration: none;">
     <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/react_icon.png" alt="React JS" width="60">
   </a>
   &nbsp;&nbsp;
-  <a href="https://firebase.google.com/" target="_blank">
+  <a href="https://firebase.google.com/" target="_blank" style="text-decoration: none;">
     <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/firebase_icon.png" alt="Firebase" width="60">
   </a>
   &nbsp;&nbsp;
-  <a href="https://www.themoviedb.org/" target="_blank">
+  <a href="https://www.themoviedb.org/" target="_blank" style="text-decoration: none;">
     <img src="https://github.com/Mudit-750/netflix-clone/blob/main/docs/tmdb_icon.png" alt="TMDb" width="60">
   </a>
 </p>

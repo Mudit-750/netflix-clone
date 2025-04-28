@@ -5,7 +5,6 @@ import{login,signUp} from '../../firebase'
 import loader from '../../assets/loading_spinner.gif'
 
 
-
 const Login = () => {
   const [signState, setSignState] = useState("Sign In")
   const [user, setUser] = useState({name:'',email:'',password:''})
@@ -29,7 +28,8 @@ const Login = () => {
     }
 
   return (
-    loading?<div className="logo-spinner"><img src={loader} alt=""/>
+    loading?<div className="logo-spinner">
+      <img src={loader} alt=""/>
     </div>:
     <div className="login">
       <div className="login-section">
@@ -41,7 +41,7 @@ const Login = () => {
           
           <input type="email" name='email' value={user.email} onChange={handleChange} placeholder="Email or mobile number" required />
           <input type="password"  name="password" value={user.password} onChange={handleChange} placeholder="Password" required />
-          <button className="btn-signup" onClick={user_auth} type="submit" >{signState}</button>
+          <button className="btn-signup" onClick={user_auth} type="submit" disabled={loading}>{signState}</button>
           
           <div className="form-help">
             <div className="remember">

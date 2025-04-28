@@ -15,20 +15,19 @@
   cursor: pointer;
 }
 
-.player iframe{
-    border-radius: 15px;
-    
+.player iframe {
+  border-radius: 15px;
 }
-.player-info{
-    width: 85%;
-    display: flex;
-    justify-content: space-between;
+.player-info {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.error-content{
+.error-content {
   min-width: 90vw;
-  min-height: 90vh; 
-  background-image: url('../../assets/404.png');
+  min-height: 90vh;
+  background-image: url("../../assets/404.png");
   border-radius: 15px;
   background-repeat: no-repeat;
   display: flex;
@@ -37,8 +36,30 @@
   border: 2px solid transparent;
 }
 
-.error-content p{
+.error-content p {
   font-size: 20px;
   font-weight: 600;
 }
 
+.loaderContainer {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  z-index: 20;
+
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.loaderContainer img {
+  width: 170px;
+  height: 170px;
+  filter: initial;
+}
+.loaderContainer span {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}

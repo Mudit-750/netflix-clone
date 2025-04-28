@@ -37,7 +37,7 @@
 }
 
 .login-form form input:focus {
-  outline: 2px solid white;
+  outline: 2px outset white;
   outline-offset: 1px;
 }
 .login-form form input::placeholder {
@@ -79,7 +79,9 @@
   width: 18px;
   height: 18px;
   margin: 0;
+  outline: none;
 }
+
 
 .form-switch {
   margin-top: 35px;
@@ -88,12 +90,11 @@
 .form-switch span {
   color: #fff;
   margin-left: 6px;
+  text-decoration: underline;
   font-weight: 500;
   cursor: pointer;
 }
-.form-switch span {
-  text-decoration: underline;
-}
+
 .foot-section {
   display: flex;
   flex-direction: column;
@@ -124,21 +125,18 @@
 
 .select-wrapper select {
   width: 100%;
-  padding: 8px 0px 8px 36px; /* leave space for icon */
+  padding: 8px 0px 8px 36px; 
   background-color: #161616;
   color: #ffffff;
   font-size: 14px;
   font-weight: 700;
   border-radius: 5px;
   border: 1px solid #444;
-  /* appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none; */
 }
 
 .select-wrapper select:focus {
-  outline: 2px solid white;
-  outline-offset: 1px;
+  outline: 2px outset white;
+  outline-offset: 2px;
 }
 
 .select-wrapper .select-icon {

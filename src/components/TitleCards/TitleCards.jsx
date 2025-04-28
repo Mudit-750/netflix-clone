@@ -1,6 +1,5 @@
 import React, { useState,useEffect, useRef } from "react";
 import "./TitleCards.css";
-
 import { Link } from "react-router-dom";
 
 const TitleCards = ({title,category,type}) => {

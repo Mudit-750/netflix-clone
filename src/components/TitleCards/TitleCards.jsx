@@ -18,7 +18,6 @@ const TitleCards = ({title,category,type}) => {
     e.preventDefault();
     cardsRef.current.scrollLeft += e.deltaY*4;
   };
-
   useEffect(() => {
     fetch(`https://api.themoviedb.org/3/${type?type:'movie'}/${category?category:"now_playing"}?language=en-US&page=1`, options)
     .then(res => res.json())

@@ -2,6 +2,20 @@
 
 A Netflix clone built with **React.js** and **Firebase** that allows users to browse movies, view details, and log in using Google Authentication.
 
+## 📸 Screenshots
+
+### 🎬 Home Page
+![Home Page](docs/homepage.png)
+
+
+### 🔐 Login Page
+![Login Page](docs/login.png)
+
+
+### 🎥 Movie Player
+![Movie Player](docs/player.png)
+
+
 ## 📚 Table of Contents
 - [About the Project](#about-the-project)
 - [Features](#features)

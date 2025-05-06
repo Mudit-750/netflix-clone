@@ -16,8 +16,8 @@ A Netflix clone built with **React.js** and **Firebase** that allows users to br
 
 ### 🔐 Login Page
 <p float="left">
-  <img src="docs/login_sign_up.png" width="48%" />
-  <img src="docs/login_sign_in.png" width="48%" />
+  <img src="docs/login_sign_up.png" width="48%" height="65%" />
+  <img src="docs/login_sign_in.png" width="48%" height="65%" />
 </p>
 
 

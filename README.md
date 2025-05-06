@@ -7,13 +7,15 @@ A Netflix clone built with **React.js** and **Firebase** that allows users to br
 ### 🎬 Home Page
 ![Home Page](docs/homepage.png)
 
+![Home Page](docs/homepage_2.png)
 
 ### 🔐 Login Page
-![Login Page](docs/login.png)
+![Login Page](docs/login_sign_up.png)
+![Login Page](docs/login_sign_in.png)
 
 
 ### 🎥 Movie Player
-![Movie Player](docs/player.png)
+![Movie Player](docs/Player.png)
 
 
 ## 📚 Table of Contents
